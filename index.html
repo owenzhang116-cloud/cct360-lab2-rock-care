@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Please Take Care of This Rock</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Please Take Care of This Rock</h1>
+  <p>CCT 360 - Lab 2: Events in Motion</p>
+  <p>It has been sitting here for 300 years. Try helping.</p>
+
+  <div id="rockArea">
+    <img id="rock" src="rock.png" alt="A grey rock waiting to be adopted">
+  </div>
+
+  <p>Choose something to do for the rock.</p>
+  <div>
+    <button id="waterButton" type="button">Water it</button>
+    <button id="growButton" type="button">Help it grow</button>
+    <button id="adoptButton" type="button">Adopt it</button>
+  </div>
+
+  <h2>Rock report</h2>
+  <div aria-live="polite">
+    <p id="waterStatus">Condition: dry.</p>
+    <p id="sizeStatus">Size: ordinary.</p>
+    <p id="adoptionStatus">Home: still available.</p>
+  </div>
+  <button id="resetButton" type="button">Start over</button>
+
+  <p id="credit">Photo: LPup / <a href="https://purepng.com/photo/13787/nature-stones-and-rocks">PurePNG</a> (CC0)</p>
+  <script src="script.js"></script>
+</body>
+</html>
